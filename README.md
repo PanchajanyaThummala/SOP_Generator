@@ -7,6 +7,8 @@
 ## Implementation Guide
 
 For those interested in the technical aspects or looking to implement a similar system, here's a detailed breakdown of the key components and how they work together:
+You can run the requirments.txt 
+"pip install -r requirements.txt"
 
 ### 1. Environment Setup
 
