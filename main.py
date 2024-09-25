@@ -3,9 +3,11 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 import os
+from dotenv import load_dotenv
 
 # Set up OpenAI API key
-os.environ["OPENAI_API_KEY"] = "your-openai-api-key-here"
+load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 st.set_page_config(page_title="University SOP Generator", layout="wide")
 
