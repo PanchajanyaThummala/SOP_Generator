@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 # Set up OpenAI API key
 load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 st.set_page_config(page_title="University SOP Generator", layout="wide")
 
