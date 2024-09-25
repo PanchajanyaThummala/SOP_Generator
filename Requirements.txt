@@ -1,4 +1,5 @@
 streamlit
-langchain
-openai
+langchain-openai  # Adjust this to the correct version for 'langchain_openai'
+langchain-core    # Adjust to the correct version for 'langchain_core'
 python-dotenv
+openai
